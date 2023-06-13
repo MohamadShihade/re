@@ -1,0 +1,230 @@
+.project_page_container_all{
+    display: block;
+    height: 900px;
+    width: 85%;
+}
+.projects_list{
+width: 20%;
+height: inherit;
+background-color: rgb(231, 243, 243);
+}
+
+
+.projects_filters_container{
+            background-color: #dddddd;
+    height: 68px;
+    padding-left: 22px;
+    display: flex;
+}
+
+.project_tasks_all{
+    width: 100%;
+    height: 79%;
+    background-color:#f9f9f9;
+    margin-top: 18px;
+overflow-y: scroll;
+background-color: rgb(252, 252, 252);
+}
+
+.project_item{
+             height: 64px;
+    padding-left: 22px;
+    background-color: #f9f9f9;
+    margin: auto;
+    padding-top: 12px;
+    color: #5b5b5c;
+    cursor: pointer;
+    border-bottom: solid;
+    border-width: unset;
+    border-color: aliceblue;
+}
+
+.project_item:hover {
+ background-color: #bbb;
+}
+
+.add_project_button{
+        height: 64px;
+    padding-left: 22px;
+    background-color: #000000;
+    margin: auto;
+    padding-top: 7px;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    font-size: x-large;
+    font-family: cursive;
+    margin-top: 18px;
+}
+
+.task{
+         display: flex;
+    /* justify-content: space-around; */
+    background-color: #efefef;
+    padding: 3px;
+    padding-left: 25px;
+    border-bottom: solid;
+    /* border-width: inherit; */
+    border-color: white;
+}
+
+.task_date{
+       width: 22%;
+    border-right: solid;
+    border-right-width: thin;
+    color: #0f3d76;
+}
+
+.task_text{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 75%;
+}
+
+.new_task{
+        padding-left: 7px;
+    padding-right: 7px;
+    /* margin-top: 20px; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(44, 148, 238);
+    text-align: center;
+    height: 40px;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    padding: auto;
+    cursor: pointer;
+    position: absolute;
+    right: 29px;
+    /* margin-bottom: 42px; */
+    padding-top: 3px;
+    height: 55px;
+    padding-top: 10px;
+    width: 14%;
+}
+
+
+
+.new_task_text{
+       border: solid;
+    border-width: thin;
+    margin-top: 21px;
+        width: 85%;
+    height: 58px;
+    margin: 0;
+    border-radius: 0;
+}
+
+
+.add_task{
+        margin-top: 20px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    padding: 29px;
+    left: 0;
+    right: 0;
+    /* margin: auto; */
+    display: flex;
+    background-color: #d6e4f5;
+}
+
+
+.new_project{
+    background-color: red;
+
+}
+
+
+
+.new_Modal {
+          background-color: #ebe8e8;
+    border: solid;
+    border-color: #f0f8ff;
+    border-radius: 12px;
+    bottom: 18%;
+    left: 5%;
+    position: absolute;
+    right: 5%;
+    text-align: left;
+    top: 10%;
+    height: 82%;
+    overflow-y: scroll;
+  }
+
+  .new_Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+
+  .new_Modal > h2 {
+    color: blue;
+    padding: 20px;
+  }
+
+
+
+  .add_proj{
+           /* border: solid; */
+    background-color: #b0c3b0;
+    width: 30%;
+    margin: auto;
+    height: 35px;
+    font-size: larger;
+    cursor: pointer;
+    border: solid;
+    border-width: thin;
+    border-color: cadetblue;
+    border-radius: -9%;
+  }
+  
+
+  .dark_row{
+background-color: #dbdbdb;  }
+
+
+.project_employee{
+width: 15%;
+}
+
+.project_name{
+width: 30%;
+}
+
+
+.project_time{
+width: 140px;
+}
+
+.project_last_task{
+width: 44%;
+}
+
+
+.exit_butt{
+        right: 2px;
+    padding: 3px;
+    position: absolute;
+    color: red;
+    ma: 21px;
+    border: solid;
+    background-color: #ff9d9f;
+    border-radius: 67%;
+    border-width: thin;
+    cursor: pointer;
+}
+
+.modal_title{
+        /* background-color: blueviolet; */
+    height: 40px;
+    color: #ef0000;
+    text-align: center;
+    font-size: 21px;
+}

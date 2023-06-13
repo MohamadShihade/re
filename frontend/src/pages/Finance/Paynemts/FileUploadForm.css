@@ -1,0 +1,107 @@
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    resize: vertical;
+    border: 1px solid #ced4da;
+  }
+
+  .input_row{
+    width: 100%;
+  }
+  
+  .form_style{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 55px;
+    text-align: start;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin: auto;
+    height: 100%;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin: auto;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .upload__btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 6px;
+  }
+
+  .upload__icon {
+   height: 30px;
+   width: 30px;
+   cursor: pointer;
+  }
+
+.hidden_upload_btn {
+    display: none ;
+}
+
+.is_file_pay {
+  margin-top: 20px;
+    cursor: pointer;
+}
+.no_file_pay {
+    opacity: 0.6;
+    cursor: not-allowed;
+    display: none;
+
+}
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

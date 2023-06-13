@@ -1,0 +1,65 @@
+.shared_projects_container{
+    background-color: #ebf6f7;
+    width: 90% ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shared_projects_div{
+    display: flex;
+}
+
+.shared_projects_name{
+        text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #e2f2ff;
+    color: #0645b7;
+}
+.project_employee_div{
+     /* background-color: blue; */
+    display: inline-block;
+    width: 31%;
+    min-height: 500px;
+    margin: 10px;
+    background-color: #f7f7f7;
+}
+
+.project_employee_epmloyee{
+    text-align: center;
+    padding: 6px;
+    background-color: #f8fdfc;
+    font-size: 21px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.47);}
+
+
+    .project_employee_tasks{
+
+    }
+
+    .sh_task_date{
+    color: #0d6efd;
+    background-color: #e9edf1;    }
+
+    .sh_task_text{
+    font-family: system-ui;
+    }
+
+    .sh_task{
+             border-bottom: solid;
+    border-bottom-color: #ada8a3;
+    padding: 10px;
+    background-color: #edf7ff;
+    }
+
+    .page_all{
+        display: block;
+    }
+
+    .project_page_container_shared{
+    display: block;
+    height: 900px;
+    width: 85%;
+}

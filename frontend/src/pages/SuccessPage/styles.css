@@ -1,0 +1,55 @@
+
+    .success_h1 {
+      color: var(--green);
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-weight: 900;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    .success_p {
+      color: #404F5E;
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-size:20px;
+      margin: 0;
+    }
+  .success_i {
+    color: var(--green);
+    font-size: 100px;
+    line-height: 200px;
+    margin-left:50px;
+  }
+  .success_card {
+    /* height: 450px; */
+    display: flex;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px #C8D0D8;
+    display: inline-block;
+    margin: 4rem auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .success_card .btn-orders span{
+    display: block;
+    margin: 2rem auto;
+    font-size: 18px;
+    letter-spacing: .7px;
+  }
+  .success_card .btn-orders span a{
+      color: #fff;
+      text-decoration: none;
+  }
+
+  .success_div{
+    border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;
+  }
+
+  .sucess_container{
+    display: flex;
+justify-content: center;  }
+
+  .property {
+    font-weight: bold ;
+    background-color: #9de433;
+  }

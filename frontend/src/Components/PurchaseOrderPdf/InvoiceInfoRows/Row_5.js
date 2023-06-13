@@ -1,0 +1,51 @@
+import React from "react";
+import { Text, View, StyleSheet } from "@react-pdf/renderer";
+
+const borderColor = "black";
+const styles = StyleSheet.create({
+  container: {
+    flexDirection: "row",
+    backgroundColor: "white",
+    borderBottomWidth: 1,
+    alignItems: "center",
+    height: 19,
+    textAlign: "center",
+    fontStyle: "bold",
+    flexGrow: 1,
+  },
+  exporter: {
+    height: "100%",
+    width: "50%",
+    borderRightColor: borderColor,
+    borderRight: 1,
+    paddingTop: 1,
+  },
+
+  invoice_no: {
+    width: "30%",
+    borderRightColor: borderColor,
+    borderRightWidth: 1,
+    height: "100%",
+    paddingTop: 1,
+  },
+  date: {
+    width: "20%",
+    borderRightColor: borderColor,
+    height: "100%",
+    paddingTop: 1,
+  },
+});
+
+const Row_5 = ({ items }) => {
+  return (
+    <>
+      <View style={styles.container}>
+        <Text style={styles.exporter}>PORT OF ORIGIN</Text>
+        <Text style={styles.invoice_no}>PORT OF DISCHARGE</Text>
+        <Text style={styles.date}>INCOTERMS</Text>
+      </View>
+    </>
+  );
+};
+
+export default Row_5;

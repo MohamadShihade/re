@@ -1,0 +1,53 @@
+.select__class {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .label{
+    font-weight: bold;
+  }
+
+  .pi_prop{
+      border: solid;
+    border-width: thin;
+    margin: 5px 2px;
+    padding: 12px;
+    border-color: #b7bbc2;
+    background: #efefef;
+    border-radius: 10px;
+  }
+
+
+  .del_but_pi{
+    padding: 4px 0px;
+    background: #ff0000;
+    font-weight: 900;
+    color: #f1dddd;
+    cursor: pointer;
+    text-align: center;
+    border: solid;
+    border-width: thin;
+    border-radius: 17px;
+  }
+
+
+
+  .new_modal_2{
+        background-color: #ebe8e8;
+    border: solid;
+    border-color: #f0f8ff;
+    border-radius: 12px;
+    bottom: 18%;
+    left: 20%;
+    position: absolute;
+    right: 10%;
+    text-align: left;
+    top: 10%;
+    height: 82%;
+    overflow-y: scroll;
+  }

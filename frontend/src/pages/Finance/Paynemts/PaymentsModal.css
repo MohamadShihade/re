@@ -1,0 +1,84 @@
+.Modal {
+    position: absolute;
+    top: 40px;
+    left: 20%;
+    right: 20%;
+    bottom: 40px;
+    background-color: rgb(235, 232, 232);
+    text-align: center;
+    border:  solid;
+    border-color: aliceblue;
+    border-radius: 12px;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+
+  .Modal > h2 {
+    color: blue;
+    padding: 20px;
+  }
+
+  
+
+
+  .payments_table{
+    padding: 20px;
+    margin-top: 55px;
+    border-color: rgba(0, 0, 0, 0.384);
+  }
+
+  
+  .new_payment {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    width: 110px;
+  }
+
+  .close__button{
+    position: absolute;
+    right: 10px;
+    top : 10px;
+  }
+
+
+  
+.payments {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 110px;
+}
+
+
+.payments {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 6px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 110px;
+}

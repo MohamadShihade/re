@@ -1,0 +1,416 @@
+.product_image_td{    height: 75px;
+    width: 75px;  }
+
+    .stock_zero{
+        background-color: #ff8585;
+    }
+
+    .stock_available{
+        background-color:#a2e690
+    }
+
+
+.small_td {
+       width: 100px;
+    font-size: 16px;
+    overflow-x: scroll;
+}
+.small_td_capacity {
+       width: 60px;
+    font-size: 16px;
+    overflow-x: scroll;
+}
+
+
+.column_div{
+        background-color: #e3f3ff;
+
+}
+.column_div:hover{
+        background-color: #e3f3ff;
+
+}
+.column_div_1{
+    display: flex;
+    background-color: #e3f3ff;
+}
+
+.column_div_1:hover{
+    background-color: #e3f3ff;
+}
+
+
+
+.bl_val_input{
+        border: solid;
+    border-width: thin;
+
+}
+
+.value_div{
+        padding: 2px;
+}
+
+.value_div:hover{
+            background-color: #e3f3ff;
+
+}
+
+.new_bl_div{
+        background-color: #e3f3ff;
+    /* display: flex; */
+    padding: 5px;
+}
+.new_bl_div:hover{
+            background-color: #d0e6f7;
+
+}
+
+
+.new_bl_add_butt{
+    background-color: rgb(18, 51, 112);
+    color: antiquewhite;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;  
+    padding: 5px 0px;
+}
+
+.new_bl_add_butt:hover{
+    background-color: black;
+}
+
+.warehouses{
+        font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #f9f1f1;
+}
+
+.warehouse_item{
+    background-color: #e2e4e9;
+    width: 175px;
+}
+
+.warehouse_name{
+       height :34px;
+       border: solid;
+       border-width: thin ;
+    text-align: center;
+    font-weight: bold;
+    background-color: #044279;
+    color: #feffff;
+
+}
+
+.availble_width{
+    width : 533px;
+}
+
+.coming_width{
+    width : 175px
+}
+
+.booked_width{
+        width : 530px;
+
+}
+.prod_width{
+      width : 175px
+
+}
+
+.warehouse_bl_item{
+       background-color: #e1ebf9;
+    margin: 3px;
+    border: solid;
+    border-width: thin;
+    border-color: #7db5e7;
+}
+
+.bl_date {
+      margin-bottom: 0px;
+    color: #ca1414;
+}
+
+.warehouse_bl_item_code{
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #315e86;
+    font-family: 'Courier New', Courier, monospace;
+}
+.warehouse_bl_item_qty{
+    text-align: center;
+    background-color: #a0caef;
+    color: #934747;}
+
+
+.show_add_form_butt{
+       margin-top: 5px;
+    margin-bottom: 4px;
+    position: absolute;
+    /* width: 15%; */
+    padding: 0px 7px;
+    /* margin: auto; */
+    left: 10;
+    text-align: center;
+    background-color: #0e6ea5;
+    border-radius: 8px;
+    font-size: 17px;
+    justify-content: flex-end;
+    font-weight: bold;
+    color: #ccdae6;
+    cursor: pointer;}
+
+    .show_add_form_butt_container{
+    display: grid;
+    justify-content: flex-end;
+    }
+
+
+    .close_btn{
+            position: relative;
+    width: 60px;
+    padding: 2px;
+    margin: auto;
+    left: 10;
+    text-align: center;
+    background-color: #ee5555;
+    border-radius: 30px;
+    justify-content: flex-end;
+    cursor: pointer;
+    }
+
+   .bl_qty{
+        width: 100%;
+    padding: 4px 4px;
+    margin: 0px 0px;
+    display: inline-block;
+    /* border-radius: 4px; */
+    box-sizing: border-box;
+   }
+
+
+   .total_stock_div{
+        text-align: center;
+    padding: 3px;
+    background-color: aliceblue;
+    color: #154885;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+   }
+   .container_val_x{
+    width: 100%;
+   }
+
+   .available_color{
+    background-color: #dff7f7;
+   }
+   .booked_color{
+    background-color: #e8f0e8;
+   }
+   .coming_color{
+    background-color: #f7eaea;
+   }
+  
+
+.th_small{
+        font-size: 13px;
+    width: 47px;
+}
+
+.th_medium{
+width: 98px;
+}
+
+.th_large{
+    width: 30%;
+}
+
+.small_td{
+    font-size: 13px;
+}
+
+
+.td_small{
+
+}
+
+.move_to_stock{
+    margin: auto;
+    color: #536879;
+    background-color: #2997f7;
+    cursor: pointer;
+}
+
+.container_move{
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    padding: 2rem 0rem;
+  }
+  
+  h4 {
+    margin: 2rem 0rem 1rem;
+  }
+  
+.pi__table{
+
+  border-color: rgba(0, 0, 0, 0.384);
+    width: 100%;
+    margin: auto;
+}
+
+.btn{
+width: 80px;
+margin-left: 20px;
+}
+
+.btn:hover {
+width: 80px;
+}
+
+.page_container{
+    align-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.search_container{
+  display: flex;
+  padding-bottom: 15px;
+}
+.th_cell_div{
+      padding: 5px 0px;
+      text-align: center;
+}
+
+.th_style{
+      background-color: #36304a;
+    color: white;
+    /* border-radius: 11px; */
+}
+
+.td_padding{
+    padding: 2px 0px 2px 2px;}
+
+.tr_border{
+  border-right: #f5f6f7;
+  border-left:#f5f6f7 ;
+  border-bottom: 1px solid #f2f2f2;
+}
+/*.tr_border :hover{
+  background-color:#f1f4f5;
+
+}*/
+
+.tr_border:hover td{
+background-color:hsl(199, 51%, 90%);
+}
+td:hover {
+
+}
+
+
+
+.tr_dark td {
+  background-color:#e8eaeb ;
+}
+
+
+.success_status{
+    padding:  12px 0px 12px 5px;
+  font-size: 18px;
+  background-color: transparent;
+}
+.pending_status{ 
+ padding:  12px 0px 12px 5px;
+ font-size: 18px;
+  background-color: transparent;
+}
+.rejected_status{  padding:  12px 0px 12px 5px;
+
+  background-color: transparent;
+}
+
+
+/* .button_pdf{
+  height: 42px;
+  background-color: var(--second-color);
+  color: white;
+} */
+
+.button_reject{
+height: 62px;
+background-color: #eb2525;
+color: white;
+}
+
+.button_approve{
+height: 62px;
+background-color: #02b402;
+color: white;
+}
+.button_delete{
+height: 62px;
+    background-color: #5c5c5c;
+    color: aliceblue;
+}
+
+/* .button_edit_pdf:hover {
+  background-color: rgb(146, 153, 173);
+} */
+
+.button_edit{
+  height: 31px;
+  background-color: #eef072;
+}
+
+
+.th_fixed{
+
+}
+
+
+label {
+      padding: 0px 12px 6px 0;
+    display: inline-block;
+}
+
+.choose_cols{
+  margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

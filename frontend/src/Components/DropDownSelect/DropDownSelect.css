@@ -1,0 +1,26 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+  }
+
+
+  .filter_select select{
+      border: 1px solid #000;
+      width: fit-content;
+     padding: 8px;
+  }
+  .filter_select label{
+    width: fit-content;
+  }
+
+
+  .filter_label {
+    color: 000;
+    font-weight: 600;
+
+  }

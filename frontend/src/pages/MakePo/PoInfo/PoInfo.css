@@ -1,0 +1,101 @@
+.poinfo_page_container{
+    width: 85%;
+    padding-bottom: 250px;
+}
+
+.info_item{
+        display: flex;
+    padding: 16px 10px;
+}
+.info_item_label{
+    /* padding-left: 2px; */
+    font-size: 22px;
+    padding: 10px 10px;
+    width: 28%;
+}
+
+.info_item_select{
+    width: 75%;
+}
+
+.info_item_input{
+    width: 41%;
+    margin: 10px;
+}
+
+.po_product{
+    display: flex;
+        width: 100%;
+    margin: auto;
+    padding: 10px 10px;
+}
+.footer_div{
+    background-color: #add9ff;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.footer_div_total{
+        width: 71%;
+    text-align: center;
+}
+
+.footer_div_total_val{
+        width: 15%;
+    text-align: center;
+}
+.po_product_num{
+        width: 5%;
+    padding: 10px 10px;
+}
+
+.po_product_code{
+        width: 25%;
+    padding: 10px 10px;
+}
+
+.po_product_capacity{
+        width: 10%;
+    padding: 10px 10px;
+}
+
+.po_product_qty{
+        width: 15%;
+    /* border: solid; */
+}
+
+.po_product_qty_input{
+        margin: 0px;
+    padding: 10px;
+}
+
+.po_product_price{
+        width: 15%;
+    margin-left: 20px;
+}
+
+.head_title{
+    font-weight: bold;
+}
+
+
+.po_product_total_amount{
+    padding: 10px;
+    width: 15%;
+    text-align: center;
+    color: red;
+}
+
+
+.next_back_buttons{
+    margin-top: 15px;
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.next_back_button{
+    padding : 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+.upload__btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 6px;
+  }
+
+  .upload__icon {
+   height: 30px;
+   width: 30px;
+   cursor: pointer;
+  }
+
+.hidden_upload_btn {
+    display: none ;
+}
+
+.is_file {
+    cursor: pointer;
+}
+.no_file {
+    opacity: 0.6;
+    cursor: not-allowed;
+
+}

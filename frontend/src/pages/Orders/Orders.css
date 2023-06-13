@@ -1,0 +1,18 @@
+.btn_nav{
+    padding: 10px 20px;
+    /* border: solid; */
+    /* border-width: thick ; */
+    /* border-color: #dce2e6; */
+    background-color: #fff;
+    border: 2px solid var(--second-color) !important;
+    border-radius: 5px;
+    color: var(--second-color);
+    margin: 10px;
+
+    
+}
+
+.navigation_bar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}

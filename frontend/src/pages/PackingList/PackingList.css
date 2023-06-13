@@ -1,0 +1,64 @@
+.search_pi{
+        border: solid;
+    border-width: thin;
+    padding: 10px;
+    background: #d3dbe8;
+}
+
+.search_div{
+    width: 100%;
+    display: flex;
+}
+
+
+.info_row{
+    width: 100%;
+        display: flex;
+    padding: 6px;
+    flex: 1;
+}
+
+.pkl_info{
+    display: flex;
+    background-color: aliceblue;
+    color: rgb(44, 44, 39);
+}
+
+
+.label_div{
+    width: 160px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.val_div{
+    padding: 10px;
+}
+
+
+.pkl_container{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20%;}
+
+
+ 
+
+    .truck_no{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    background: #c1ceda;
+    margin: 0px;
+    }
+
+
+
+    .add_truck_but {
+            /* height: 22px; */
+    font-size: 50px;
+    cursor: pointer;
+    color: #0b1bee;
+    }

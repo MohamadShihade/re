@@ -1,0 +1,198 @@
+[
+  {
+    "label": "Pacer",
+    "children": [
+      {
+        "label": "Pacer",
+        "children": [
+          {
+            "label": "200 AH"
+          },
+          {
+            "label": "220 AH"
+          },
+          {
+            "label": "230 AH"
+          },
+          {
+            "label": "240 AH"
+          }
+        ]
+      },{
+        "label": "Infinity",
+        "children": [
+          {
+            "label": "200 AH"
+          },
+          {
+            "label": "220 AH"
+          },
+          {
+            "label": "230 AH"
+          },
+          {
+            "label": "240 AH"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Z Power",
+    "children": [
+      {
+        "label": "3M",
+        "children": [
+           {
+            "label": "200 AH"
+          },
+          {
+            "label": "220 AH"
+          },
+          {
+            "label": "230 AH"
+          },
+          {
+            "label": "240 AH"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Exide",
+    "children": [
+      {
+        "label": "EXIDE",
+        "children": [
+          {
+            "label": "115 AH"
+          },
+          {
+            "label": "150 AH"
+          },
+          {
+            "label": "200 AH"
+          },{
+            "label": "220 AH"
+          },
+          {
+            "label": "230 AH"
+          },
+          {
+            "label": "240 AH"
+          }
+        ]
+      },{
+        "label": "INDEX",
+        "children": [
+          {
+            "label": "115 AH"
+          },
+          {
+            "label": "150 AH"
+          },
+          {
+            "label": "200 AH"
+          },{
+            "label": "220 AH"
+          },
+          {
+            "label": "230 AH"
+          },
+          {
+            "label": "240 AH"
+          }
+        ]
+      },{
+        "label": "CEIL",
+        "children": [
+          {
+            "label": "115 AH"
+          },
+          {
+            "label": "150 AH"
+          },
+          {
+            "label": "200 AH"
+          },{
+            "label": "220 AH"
+          },
+          {
+            "label": "230 AH"
+          },
+          {
+            "label": "240 AH"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "LUMINOUS",
+    "children": [
+      {
+        "label": "LUMINOUS",
+        "children": [
+          {
+            "label": "100 AH"
+          },
+          {
+            "label":
+              "125 AH"
+          },
+          {
+            "label": "150 AH"
+          },
+          {
+            "label": "175 AH"
+          }
+          ,
+          {
+            "label": "200 AH"
+          }
+          ,
+          {
+            "label": "220 AH"
+          }]},{
+        "label": "LUMINOUS INVERTERS",
+        "children": [
+          {
+            "label": "900 W"
+          },
+          {
+            "label":
+              "1100 W"
+          },
+          {
+            "label": "1400 W"
+          },
+          {
+            "label": "2800 W"
+          }
+        ]
+      }
+    ]
+  },{
+    "label": "DEEPAK",
+    "children": [
+      {
+        "label": "ORBIT",
+        "children": [
+          {
+            "label": "55 AH"
+          },
+          {
+            "label":"100 AH"
+          },
+          {
+            "label": "150 AH"
+          },
+          {
+            "label": "200 AH"
+          }
+        ]
+      }
+    ]
+  }
+]

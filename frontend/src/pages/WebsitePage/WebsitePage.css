@@ -1,0 +1,129 @@
+.spinner_container{
+    margin: auto;
+}
+.po_page_container{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color:  #ffffff;
+    padding: 0px;
+}
+
+
+.search_box_po {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  width: 100%;
+  background: #f1f1f1;
+  margin-left: 40px;
+}
+
+
+.search_div_po{
+    width: 81%;
+    margin: auto;
+    display: flex;
+}
+
+.filter_div{
+  
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.filter_but{
+    width: 24%;
+    background-color: var(--second-color);
+    color: #eddbdb;
+    padding: 16px ;
+    margin: 7px 19px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.filter_but:hover{
+    background-color: rgb(236, 236, 236);
+    color: #fc0000;
+}
+
+.po_filters{
+       width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5%;
+    padding-bottom: 1.2%;
+}
+
+
+.no_of_items{
+           margin-top: auto;
+    margin-bottom: auto;
+    background-color: #c9e1f5;
+    padding: 15px;
+    color: #56606a;
+    font-family: monospace;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .search_div_po{
+    display: block;
+  }
+
+  
+.filter_but{
+       width: 30%;
+    background-color: red;
+    color: #eddbdb;
+    padding: 5px 14px;
+    margin: 7px 19px;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+}
+
+
+@media only screen and (max-width: 460px) {
+  /* For mobile phones: */
+  .search_div_po{
+    display: block;
+  }
+
+  
+.filter_but{
+       width: 30%;
+    background-color: red;
+    color: #eddbdb;
+    padding: 5px 14px;
+    margin: 7px 19px;
+    border-radius: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+}
+
+
+
+.chosen_cat{
+     background-color: #706e6e;
+    color: #ffffff;
+    border: 1px solid #868282;
+    transform: translateY(-3px);
+
+}

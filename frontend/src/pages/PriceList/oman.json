@@ -1,0 +1,46 @@
+[
+  {
+    "label": "REEM Battery",
+    "children": [
+      {
+        "label": "GRAND STAR",
+        "children": [
+          {
+            "label": "40 AH"
+          },
+          {
+            "label": "55 AH"
+          },
+          {
+            "label": "100 AH"
+          },
+          {
+            "label": "150 AH"
+          },
+          {
+            "label": "200 AH"
+          }
+        ]
+      }, {
+        "label": "DAIMOND POWER",
+        "children": [
+           {
+            "label": "40 AH"
+          },
+          {
+            "label": "55 AH"
+          },
+          {
+            "label": "100 AH"
+          },
+          {
+            "label": "150 AH"
+          },
+          {
+            "label": "200 AH"
+          }
+        ]
+      }
+    ]
+      } 
+]

@@ -1,0 +1,43 @@
+.select____status__class {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: solid;
+  border-width: thin;
+  border-color: rgb(205 205 205);
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-transform: lowercase;
+  }
+
+  .button_next_stage {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+
+.button_next_stage_done {
+  background-color: #a4a5ac; /* Green */
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: not-allowed;
+  
+}

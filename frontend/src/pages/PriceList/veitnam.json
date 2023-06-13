@@ -1,0 +1,52 @@
+[
+  {
+    "label": "SEBANG VINA",
+    "children": [
+      {
+        "label": "ROCKET VRLA",
+        "children": [
+          {
+            "label": "4.5 AH"
+          },
+          {
+            "label": "7 AH"
+          },
+          {
+            "label": "9 AH"
+          },
+          {
+            "label": "12 AH"
+          },
+          {
+            "label": "18 AH"
+          }, 
+          {
+            "label": "26 AH"
+          },
+          {
+            "label": "33 AH"
+          },
+          {
+            "label": "40 AH"
+          },
+          {
+            "label": "55 AH"
+          },
+          {
+            "label": "65 AH"
+          },
+          {
+            "label": "100 AH"
+          },
+          {
+            "label": "150 AH"
+          },
+          {
+            "label": "200 AH"
+          }
+        ]
+      
+      }
+    ]
+      } 
+]

@@ -1,0 +1,16 @@
+.advanced_search_modal{
+    width: 40%;
+}
+
+.date_filter{
+display: flex;
+}
+
+.date_picker_style{
+    width: 35%;
+}
+
+.label_div{
+    width: 10%;
+    padding: 10px; 
+font-weight: bold;}
